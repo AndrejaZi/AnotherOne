@@ -9,6 +9,20 @@
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="29" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+  <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+  <!--
+     Android 11 brings in a lot of changes regarding privacy. By default, list of installed apps is now hidden.
+     Manifest block below make browsers on user devices acessible in order to let SDK check for updates in private update track.
+     See more about managing package visibility: https://developer.android.com/training/basics/intents/package-visibility
+    -->
+  <queries>
+    <intent>
+      <action android:name="android.intent.action.VIEW" />
+      <data android:scheme="https" />
+    </intent>
+  </queries>
   <application android:name="crc643abfa15c19bfaac7.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/icon" android:label="@string/app_name" android:theme="@style/MainTheme">
     <activity android:name="crc643abfa15c19bfaac7.MainActivity" android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:theme="@style/MainTheme" />
     <activity android:name="crc643abfa15c19bfaac7.SplashActivity" android:noHistory="true" android:theme="@style/MainTheme.Splash">
@@ -28,5 +42,19 @@
     <activity android:name="crc64a0e0a82d0db9a07d.WebAuthenticatorIntermediateActivity" android:configChanges="orientation|screenSize" />
     <receiver android:name="crc643f46942d9dd1fff9.PowerSaveModeBroadcastReceiver" android:enabled="true" android:exported="false" />
     <provider android:name="mono.MonoRuntimeProvider" android:authorities="com.companyname.appname.mono.MonoRuntimeProvider.__mono_init__" android:exported="false" android:initOrder="1999999999" />
+    <activity android:name="com.microsoft.appcenter.distribute.DeepLinkActivity" android:exported="true" android:theme="@android:style/Theme.NoDisplay">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <data android:host="updates" android:path="/" android:scheme="appcenter" />
+      </intent-filter>
+    </activity>
+    <receiver android:name="com.microsoft.appcenter.distribute.DownloadManagerReceiver" android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+        <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED" />
+      </intent-filter>
+    </receiver>
   </application>
 </manifest>

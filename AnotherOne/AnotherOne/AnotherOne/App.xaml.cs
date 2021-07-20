@@ -5,6 +5,11 @@ using Prism.Ioc;
 using Xamarin.Essentials.Implementation;
 using Xamarin.Essentials.Interfaces;
 using Xamarin.Forms;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
+using Microsoft.AppCenter.Distribute;
+
 
 namespace AnotherOne
 {
@@ -20,6 +25,7 @@ namespace AnotherOne
             InitializeComponent();
 
             await NavigationService.NavigateAsync("NavigationPage/MainPage");
+            AppCenter.Start("android=01ca10ff-a59a-42c1-92ac-d74a730cada7;", typeof(Analytics), typeof(Crashes), typeof(Distribute));
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)

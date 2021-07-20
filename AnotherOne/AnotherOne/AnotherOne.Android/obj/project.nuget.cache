@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "MTP5a5OHMGoqS9RoQESaKg/YDTvQCvuzQSRjYnZxVs0/kjbQq6cWb8oxrTlJLixzKydrM7raijI2whQQDRA3CQ==",
+  "dgSpecHash": "JhJUq9RmrbeFUO9PBzQboO6JPa0XlNxoCg1C4XsCXWKPvjeuAADTqE49xpYVwSPe11eisMru3Fhpnrg8KvEtug==",
   "success": true,
   "projectFilePath": "C:\\Users\\azivanovic\\source\\repos\\AnotherOne\\AnotherOne\\AnotherOne\\AnotherOne.Android\\AnotherOne.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\azivanovic\\.nuget\\packages\\dryioc.dll\\4.7.7\\dryioc.dll.4.7.7.nupkg.sha512",
+    "C:\\Users\\azivanovic\\.nuget\\packages\\microsoft.appcenter\\4.3.0\\microsoft.appcenter.4.3.0.nupkg.sha512",
+    "C:\\Users\\azivanovic\\.nuget\\packages\\microsoft.appcenter.analytics\\4.3.0\\microsoft.appcenter.analytics.4.3.0.nupkg.sha512",
+    "C:\\Users\\azivanovic\\.nuget\\packages\\microsoft.appcenter.crashes\\4.3.0\\microsoft.appcenter.crashes.4.3.0.nupkg.sha512",
+    "C:\\Users\\azivanovic\\.nuget\\packages\\microsoft.appcenter.distribute\\4.3.0\\microsoft.appcenter.distribute.4.3.0.nupkg.sha512",
     "C:\\Users\\azivanovic\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
     "C:\\Users\\azivanovic\\.nuget\\packages\\prism.dryioc.forms\\8.1.97\\prism.dryioc.forms.8.1.97.nupkg.sha512",
     "C:\\Users\\azivanovic\\.nuget\\packages\\prism.forms\\8.1.97\\prism.forms.8.1.97.nupkg.sha512",
