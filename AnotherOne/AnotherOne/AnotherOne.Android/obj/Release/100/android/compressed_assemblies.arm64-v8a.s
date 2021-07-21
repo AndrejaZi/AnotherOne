@@ -17,7 +17,7 @@
 
 	/* 1: AnotherOne.dll */
 	/* uncompressed_file_size */
-	.word	10752
+	.word	11776
 	/* loaded */
 	.byte	0
 	/* data */

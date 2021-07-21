@@ -24,9 +24,8 @@ namespace AnotherOne.Droid
 
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
 
-            Distribute.CheckForUpdate();
             Distribute.SetEnabledForDebuggableBuild(true);
-            Distribute.NotifyUpdateAction(UpdateAction.Update);
+
 
             LoadApplication(new App(new AndroidInitializer()));
             

@@ -37,7 +37,7 @@
 
 	/* 1: AnotherOne.dll */
 	/* uncompressed_file_size */
-	.long	10752
+	.long	11776
 	/* loaded */
 	.byte	0
 	/* data */
