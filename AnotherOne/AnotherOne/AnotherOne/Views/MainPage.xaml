@@ -6,7 +6,7 @@
 
     <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
         <Label Text="Welcome to Xamarin Forms and Prism!" />
-        <Label Text="Version 1.3!" />
+        <Label Text="Version 1.6!" />
         <Button Clicked="Button_Clicked" Text="Klikni"></Button>
     </StackLayout>
 
