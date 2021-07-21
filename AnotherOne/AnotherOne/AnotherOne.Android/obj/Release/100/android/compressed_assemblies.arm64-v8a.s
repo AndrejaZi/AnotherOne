@@ -8,7 +8,7 @@
 .L.compressed_assembly_descriptors:
 	/* 0: AnotherOne.Android.dll */
 	/* uncompressed_file_size */
-	.word	384512
+	.word	385024
 	/* loaded */
 	.byte	0
 	/* data */
