@@ -6,7 +6,7 @@
 
     <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
         <Label Text="Welcome to Xamarin Forms and Prism!" />
-        <Label Text="HJi!" />
+        <Label Text="Version 1.1!" />
     </StackLayout>
 
 </ContentPage>

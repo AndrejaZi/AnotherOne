@@ -4,6 +4,11 @@ using Android.OS;
 using Prism;
 using Prism.Ioc;
 
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
+using Microsoft.AppCenter.Distribute;
+
 namespace AnotherOne.Droid
 {
     [Activity(Theme = "@style/MainTheme",
@@ -18,7 +23,13 @@ namespace AnotherOne.Droid
             base.OnCreate(savedInstanceState);
 
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+
+            Distribute.CheckForUpdate();
+            AppCenter.Start("android=01ca10ff-a59a-42c1-92ac-d74a730cada7;", typeof(Analytics), typeof(Crashes), typeof(Distribute));
+            Distribute.SetEnabledForDebuggableBuild(true);
+
             LoadApplication(new App(new AndroidInitializer()));
+            
         }
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Android.Content.PM.Permission[] grantResults)
