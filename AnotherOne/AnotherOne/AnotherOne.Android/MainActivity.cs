@@ -25,8 +25,8 @@ namespace AnotherOne.Droid
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
 
             Distribute.CheckForUpdate();
-            AppCenter.Start("android=01ca10ff-a59a-42c1-92ac-d74a730cada7;", typeof(Analytics), typeof(Crashes), typeof(Distribute));
             Distribute.SetEnabledForDebuggableBuild(true);
+            Distribute.NotifyUpdateAction(UpdateAction.Update);
 
             LoadApplication(new App(new AndroidInitializer()));
             
