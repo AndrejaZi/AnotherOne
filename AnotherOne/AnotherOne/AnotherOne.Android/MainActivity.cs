@@ -24,10 +24,8 @@ namespace AnotherOne.Droid
 
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
 
-            AppCenter.Start("android=01ca10ff-a59a-42c1-92ac-d74a730cada7;", typeof(Analytics), typeof(Crashes), typeof(Distribute));
 
-            //Distribute.SetEnabledForDebuggableBuild(true);
-
+            AppCenter.Start("android=01ca10ff-a59a-42c1-92ac-d74a730cada7;", typeof(Analytics), typeof(Crashes), typeof(Distribute));            
 
             LoadApplication(new App(new AndroidInitializer()));
             
@@ -39,6 +37,7 @@ namespace AnotherOne.Droid
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
+        
     }
 
     public class AndroidInitializer : IPlatformInitializer
