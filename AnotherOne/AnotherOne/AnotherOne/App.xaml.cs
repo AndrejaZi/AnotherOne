@@ -40,7 +40,6 @@ namespace AnotherOne
         {
             base.OnStart();
             Distribute.ReleaseAvailable = OnReleaseAvailable;
-            Distribute.NoReleaseAvailable = OnNoReleaseAvailable;
             AppCenter.Start("android=01ca10ff-a59a-42c1-92ac-d74a730cada7;", typeof(Analytics), typeof(Crashes), typeof(Distribute));
 
         }
@@ -83,10 +82,6 @@ namespace AnotherOne
 
             // Return true if you are using your own dialog, false otherwise
             return true;
-        }
-        void OnNoReleaseAvailable()
-        {
-            App.Current.MainPage.DisplayAlert("nema", "nema update","oh no");
         }
     }
 }
