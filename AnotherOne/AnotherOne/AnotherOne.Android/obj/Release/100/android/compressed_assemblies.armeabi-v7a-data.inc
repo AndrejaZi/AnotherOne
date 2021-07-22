@@ -4,7 +4,7 @@
 
 	.type	compressed_assembly_data_1, %object
 	.local	compressed_assembly_data_1
-	.comm	compressed_assembly_data_1,11776,16
+	.comm	compressed_assembly_data_1,12800,16
 
 	.type	compressed_assembly_data_2, %object
 	.local	compressed_assembly_data_2
@@ -208,5 +208,5 @@
 
 	.type	compressed_assembly_data_52, %object
 	.local	compressed_assembly_data_52
-	.comm	compressed_assembly_data_52,2055680,16
+	.comm	compressed_assembly_data_52,2056192,16
 

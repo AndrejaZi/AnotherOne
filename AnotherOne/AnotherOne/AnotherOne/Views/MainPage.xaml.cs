@@ -13,23 +13,23 @@ namespace AnotherOne.Views
             InitializeComponent();
         }
 
-        private void Button_Clicked(object sender, System.EventArgs e)
+        private void Button_Clicked(object sender, EventArgs e)
         {
             Analytics.TrackEvent("Korisnik je kliknuo");
         }
 
-        private void Button_Clicked_1(object sender, System.EventArgs e)
+        private void Button_Clicked_1(object sender, EventArgs e)
         {
             try
             {
-                int[] myNumbers = { 1, 2, 3 };
-                Console.WriteLine(myNumbers[10]); //kreira gresku
+                int[] errorArray = { 1, 2, 3 };
+                Console.WriteLine(errorArray[10]); //kreira gresku
             }
             catch (Exception exc)
             {
                 var greska = new Dictionary<string, string>
                 {
-                    { "Gresla", "string" },
+                    { "Greska", "string greske" },
                     { "Korisni podaci", "ukljuceni"}
                 };
                 Crashes.TrackError(exc, greska);

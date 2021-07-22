@@ -9,6 +9,7 @@
         <Label Text="Version 1.8.1!" />
         <Label Text="Nesto novije!" />
         <Label Text="Nesto najnovije iz sledece verzije!" />
+        <Label Text="Obavezno!" />
         
         <Button Clicked="Button_Clicked" Text="Klikni"></Button>
         <Button Clicked="Button_Clicked_1" Text="Generisi gresku"></Button>

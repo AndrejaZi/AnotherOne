@@ -17,7 +17,7 @@
 
 	/* 1: AnotherOne.dll */
 	/* uncompressed_file_size */
-	.word	11776
+	.word	12800
 	/* loaded */
 	.byte	0
 	/* data */
@@ -476,7 +476,7 @@
 
 	/* 52: mscorlib.dll */
 	/* uncompressed_file_size */
-	.word	2055680
+	.word	2056192
 	/* loaded */
 	.byte	0
 	/* data */
