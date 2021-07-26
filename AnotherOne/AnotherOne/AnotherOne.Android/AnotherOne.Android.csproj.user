@@ -3,5 +3,6 @@
   <PropertyGroup>
     <SelectedDevice>Samsung SM-A217F</SelectedDevice>
     <ActiveDebugProfile>Samsung SM-A217F</ActiveDebugProfile>
+    <DefaultDevice>pixel_3a_r_11_0_-_api_30</DefaultDevice>
   </PropertyGroup>
 </Project>

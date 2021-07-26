@@ -30,6 +30,7 @@ external-path;C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\
 foreground;obj\Debug\100\res\mipmap-anydpi-v26\icon.xml
 foreground;obj\Debug\100\res\mipmap-anydpi-v26\icon_round.xml
 FrameLayout;C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Debug\100\lp\58\jl\res\layout\bottomtablayout.xml
+gradient;obj\Debug\100\res\drawable\gradient_background.xml
 item;C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Debug\100\lp\58\jl\res\values\styles.xml
 item;obj\Debug\100\res\drawable\splash_screen.xml
 item;obj\Debug\100\res\values\styles.xml
@@ -60,10 +61,14 @@ resources;C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\Anot
 resources;obj\Debug\100\res\values\colors.xml
 resources;obj\Debug\100\res\values\strings.xml
 resources;obj\Debug\100\res\values\styles.xml
+selector;obj\Debug\100\res\drawable\splash_screen.xml
 set;C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Debug\100\lp\58\jl\res\anim\enterfromleft.xml
 set;C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Debug\100\lp\58\jl\res\anim\enterfromright.xml
 set;C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Debug\100\lp\58\jl\res\anim\exittoleft.xml
 set;C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Debug\100\lp\58\jl\res\anim\exittoright.xml
+shape;obj\Debug\100\res\drawable\gradient_background.xml
+shape;obj\Debug\100\res\drawable\splash_screen.xml
+size;obj\Debug\100\res\drawable\splash_screen.xml
 string;C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Debug\100\lp\58\jl\res\values\strings.xml
 string;C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Debug\100\lp\6\jl\res\values\values.xml
 string;C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Debug\100\lp\6\jl\res\values-cs\values-cs.xml

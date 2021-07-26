@@ -502,3 +502,6 @@ C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.And
 C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Release\100\stamp\_GenerateJavaStubs.stamp
 C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Release\100\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Release\100\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Release\100\res\drawable\logo.png
+C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Release\100\res\drawable\wms_logo.png
+C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Release\100\res\drawable\gradient_background.xml

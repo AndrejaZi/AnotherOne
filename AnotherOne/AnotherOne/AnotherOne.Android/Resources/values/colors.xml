@@ -4,4 +4,9 @@
     <color name="colorPrimary">#7E7D81</color>
     <color name="colorPrimaryDark">#5f5f61</color>
     <color name="colorAccent">#00A5F2</color>
+    <color name="splash_background">#040EF6</color>
+    <color name="gradientstart">#80c6ff</color>
+    <color name="gradientend">#012E8B</color>
+    
+  
 </resources>

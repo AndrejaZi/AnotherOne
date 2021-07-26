@@ -1,7 +1,6 @@
 C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne\bin\Release\netstandard2.0\AnotherOne.deps.json
 C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne\bin\Release\netstandard2.0\AnotherOne.dll
 C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne\bin\Release\netstandard2.0\AnotherOne.pdb
-C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne\obj\Release\netstandard2.0\AnotherOne.csproj.AssemblyReference.cache
 C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne\obj\Release\netstandard2.0\App.xaml.g.cs
 C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne\obj\Release\netstandard2.0\Views\MainPage.xaml.g.cs
 C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne\obj\Release\netstandard2.0\AnotherOne.AssemblyInfoInputs.cache
@@ -10,3 +9,4 @@ C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne\obj
 C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne\obj\Release\netstandard2.0\XamlC.stamp
 C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne\obj\Release\netstandard2.0\AnotherOne.dll
 C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne\obj\Release\netstandard2.0\AnotherOne.pdb
+C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne\obj\Release\netstandard2.0\AnotherOne.csproj.AssemblyReference.cache

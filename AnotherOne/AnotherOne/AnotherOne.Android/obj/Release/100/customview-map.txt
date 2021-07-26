@@ -30,6 +30,7 @@ external-path;C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\
 foreground;obj\Release\100\res\mipmap-anydpi-v26\icon.xml
 foreground;obj\Release\100\res\mipmap-anydpi-v26\icon_round.xml
 FrameLayout;C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Release\100\lp\58\jl\res\layout\bottomtablayout.xml
+gradient;obj\Release\100\res\drawable\gradient_background.xml
 item;C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Release\100\lp\58\jl\res\values\styles.xml
 item;obj\Release\100\res\drawable\splash_screen.xml
 item;obj\Release\100\res\values\styles.xml
@@ -64,6 +65,7 @@ set;C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne
 set;C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Release\100\lp\58\jl\res\anim\enterfromright.xml
 set;C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Release\100\lp\58\jl\res\anim\exittoleft.xml
 set;C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Release\100\lp\58\jl\res\anim\exittoright.xml
+shape;obj\Release\100\res\drawable\gradient_background.xml
 string;C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Release\100\lp\58\jl\res\values\strings.xml
 string;C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Release\100\lp\6\jl\res\values\values.xml
 string;C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Release\100\lp\6\jl\res\values-cs\values-cs.xml

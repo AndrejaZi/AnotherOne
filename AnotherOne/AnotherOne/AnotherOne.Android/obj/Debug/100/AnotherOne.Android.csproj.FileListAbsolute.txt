@@ -654,3 +654,6 @@ C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.And
 C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Debug\100\android\src\mono\com\microsoft\appcenter\distribute\download\ReleaseDownloader_ListenerImplementor.java
 C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Debug\100\android\src\mono\com\microsoft\appcenter\utils\context\UserIdContext_ListenerImplementor.java
 C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Debug\100\android\src\mono\com\microsoft\appcenter\utils\NetworkStateHelper_ListenerImplementor.java
+C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Debug\100\res\drawable\logo.png
+C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Debug\100\res\drawable\wms_logo.png
+C:\Users\azivanovic\source\repos\AnotherOne\AnotherOne\AnotherOne\AnotherOne.Android\obj\Debug\100\res\drawable\gradient_background.xml
