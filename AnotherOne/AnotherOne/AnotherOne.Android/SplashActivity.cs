@@ -15,9 +15,7 @@ namespace AnotherOne.Droid
         protected override void OnResume()
         {
             base.OnResume();
-            Task.Delay(TimeSpan.FromSeconds(10));
             StartActivity(new Intent(Application.Context, typeof(MainActivity)));
-            
         }
 
     }
